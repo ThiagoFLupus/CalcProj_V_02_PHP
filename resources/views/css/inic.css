@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+/*===============  smart até 600px  ================*/
+@media( max-width: 600px){
+    body{
+        background: #dfdce3;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .container{
+        background: linear-gradient(#fc4a1a, #4abdac);
+        width: 90%;
+        margin-left: 5%;
+        padding: 100px 0px 50px 0px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    h2{
+        color: white;
+    }
+
+    span{
+        color: red;
+    }
+
+    #form-dv label{
+        margin-left: 5%;
+        border-radius: 20px;
+    }
+
+    #form-dv input{
+        margin-left: 5%;
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+        text-align: center;
+    }
+
+    #form-dv button{
+        margin-left: 5%;
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+        background: #007849;
+    }
+
+    #form-dv button:hover{
+        cursor: pointer;
+    }
+
+    #resultado{
+        position: absolute;
+        top: 220px;
+        right: 20%;
+    }
+
+    footer{
+        background: #4abdac;
+        padding: 70px 0px 40px 0px;
+    }
+
+    footer h3{
+        text-align: right;
+        width: 93%;
+    }
+}
+
+/*===============  desktop maior que 600px  ================*/
+@media( min-width: 601px){
+    body{
+        background: #dfdce3;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .container{
+        background: linear-gradient(#fc4a1a, #4abdac);
+        width: 70%;
+        margin-left: 15%;
+        padding: 100px 0px 50px 0px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    h2{
+        color: white;
+        font-size: xx-large;
+    }
+
+    span{
+        color: red;
+    }
+
+    #form-dv label{
+        margin-left: 5%;
+        border-radius: 20px;
+    }
+
+    #form-dv input{
+        margin-left: 5%;
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+        text-align: center;
+    }
+
+    #form-dv button{
+        margin-left: 5%;
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+        background: #007849;
+    }
+
+    #form-dv button:hover{
+        cursor: pointer;
+    }
+
+    #resultado{
+        position: absolute;
+        top: 220px;
+        right: 30%;
+    }
+
+    footer{
+        background: #4abdac;
+        padding: 50px 0px 40px 0px;
+    }
+
+    footer h3{
+        text-align: right;
+        width: 93%;
+    }
+}
